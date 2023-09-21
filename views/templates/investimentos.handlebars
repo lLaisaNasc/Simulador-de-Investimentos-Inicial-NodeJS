@@ -1,0 +1,49 @@
+
+<div class="content" id="resultado-inicial-template" type="text/x-handlebars-template">
+      <h2>Seus resultados</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 mb-4">
+          <div class="card" style="width: 18rem">
+            <i class="bi bi-bank"></i>
+            <div class="card-body">
+              <h5 class="card-title">Tesouro Direto</h5>
+              <p class="card-text" id="card-text">
+                {{simulacao.rentabilidade_tesouro}}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mb-4">
+          <div class="card" style="width: 18rem">
+            <i class="bi bi-coin"></i>
+            <div class="card-body">
+              <h5 class="card-title">CDB</h5>
+              <p class="card-text"  id="card-text">
+                {{simulacao.rentabilidade_cdb}}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mb-4">
+          <div class="card" style="width: 18rem">
+            <i class="bi bi-piggy-bank"></i>
+            <div class="card-body">
+              <h5 class="card-title">Poupança</h5>
+              <p class="card-text"  id="card-text">
+                {{simulacao.rentabilidade_poupanca}}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mb-4">
+          <div class="card" style="width: 18rem">
+            <i class="bi bi-cash-coin"></i>
+            <div class="card-body">
+              <h5 class="card-title">LCI/LCA</h5>
+              <p class="card-text"  id="card-text">{{simulacao.rentabilidade_lci_lca}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h6>Total Investido: {{simulacao.valor_total_investido}}</h6>
+    </div>

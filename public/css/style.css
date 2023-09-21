@@ -1,0 +1,187 @@
+.banner-section {
+  background-color: #abc8e4;
+  text-align: center;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  opacity: 70%;
+}
+
+#link-nav {
+  color: #040d16;
+}
+
+.container-fluid {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 3%;
+}
+
+.container-banner {
+  border: none;
+  width: 1990px;
+  height: 450px;
+  background-image: url("../../images/banner010.jpeg");
+  background-position: center;
+}
+
+.container-info {
+  text-align: left;
+  margin-top: 8%;
+  margin-left: 8%;
+}
+
+.container-info p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 2%;
+  color: #abc8e4;
+}
+
+.container-info button {
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  background-color: #0e354e;
+  font-size: 17px;
+}
+
+.container-info h1 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 2%;
+  color: #040d16;
+}
+
+.container-info button {
+  font-family: "Montserrat", sans-serif;
+}
+
+#logo {
+  height: 80px;
+  width: 280px;
+  margin-left: 4%;
+  margin-bottom: 1%;
+}
+
+.card-container {
+  width: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5%;
+  margin-left: 10%;
+  gap: 10px;
+}
+
+i {
+  font-size: 80px;
+  align-self: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.container-form {
+  margin-top: 3%;
+  color: #040d16;
+  width: fit-content;
+}
+
+.titulo {
+  margin-top: 3%;
+}
+
+#op-form {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #abc8e4;
+}
+
+#op-form i {
+  font-size: 35px;
+  margin-right: 6%;
+}
+
+#customRange3 {
+  width: 350px;
+}
+
+.form-control {
+  width: 300px;
+}
+
+#btn {
+  font-size: 20px;
+}
+
+#resultado {
+  font-size: 15px;
+  width: max-content;
+}
+
+.simulacao {
+  align-items: center;
+}
+
+#card-text {
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  padding: 5%;
+}
+
+.todas {
+  align-self: center;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+
+.simulacao-lista {
+  list-style: none;
+  margin-top: 1em;
+}
+
+.simulacao-lista li {
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  justify-content: space-between;
+  gap: 35rem;
+}
+
+.simulacao-lista .todas-titulo {
+  font-weight: bold;
+  color: #333;
+  transition: 0.5s;
+  font-size: 1.2em;
+}
+
+.actions {
+  display: flex;
+}
+
+.actions i {
+  font-size: 1.5em;
+  margin-right: 0.6em;
+  color: #333;
+}
+
+.actions i:hover {
+  color: #00008b;
+}
+
+.actions form {
+  margin: 0;
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#tt-principal{
+  margin-bottom: 8%;
+}
